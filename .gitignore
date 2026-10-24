@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and generated local output
+*.log
+*.tmp
+*.bak
+
+# PostgreSQL dump files (do not accidentally commit database contents)
+*.sql.gz
+*.dump
+*.backup
